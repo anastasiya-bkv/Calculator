@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Калькулятор</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="calculator-header">
+          <h1 class="calculator-display" id="display">0</h1>
+        </div>
+        <div class="calculator-body">
+          <div class="row">
+            <button class="btn" id="btn-clear-all" title="Escape">
+              Очистить все
+            </button>
+            <button class="btn" id="btn-back" title="Backspace">
+              Стереть
+            </button>
+          </div>
+          <div class="row">
+            <button class="btn btn-action" data-action="%">%</button>
+            <button class="btn btn-action" data-action="^">^</button>
+            <button class="btn btn-action" data-action="√">√</button>
+          </div>
+          <div class="row">
+            <button class="btn btn-digit" data-digit="7">7</button>
+            <button class="btn btn-digit" data-digit="8">8</button>
+            <button class="btn btn-digit" data-digit="9">9</button>
+            <button class="btn btn-action" data-action="/">/</button>
+          </div>
+          <div class="row">
+            <button class="btn btn-digit" data-digit="4">4</button>
+            <button class="btn btn-digit" data-digit="5">5</button>
+            <button class="btn btn-digit" data-digit="6">6</button>
+            <button class="btn btn-action" data-action="*">*</button>
+          </div>
+          <div class="row">
+            <button class="btn btn-digit" data-digit="1">1</button>
+            <button class="btn btn-digit" data-digit="2">2</button>
+            <button class="btn btn-digit" data-digit="3">3</button>
+            <button class="btn btn-action" data-action="-">-</button>
+          </div>
+          <div class="row">
+            <button class="btn btn-digit" data-digit="0">0</button>
+            <button class="btn btn-dot" id="btn-dot">.</button>
+            <button class="btn btn-result" id="btn-result" title="Enter">
+              =
+            </button>
+            <button class="btn btn-action" data-action="+">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
