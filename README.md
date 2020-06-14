@@ -1,3 +1,3 @@
-# calculator
+# Калькулятор
 
-Калькулятор: https://anastasiya-bkv.github.io/calculator/
+https://anastasiya-bkv.github.io/calculator/
